@@ -7,7 +7,7 @@
     "babel": "babel ./src --out-dir ./lib",
     "sass": "cpx ./src/**/*.scss ./lib",
     "clean": "rimraf ./lib",
-    "build" : "rimraf ./lib && npm run babel && npm run sass"
+    "build": "rimraf ./lib && npm run babel && npm run sass"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,7 @@
     "css-loader": "^0.24.0",
     "node-sass": "^3.8.0",
     "postcss-loader": "^0.11.1",
+    "react-transform-catch-errors": "^1.0.2",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.0.1",
     "style-loader": "^0.13.1",
