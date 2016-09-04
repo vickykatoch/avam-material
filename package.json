@@ -2,7 +2,7 @@
   "name": "avam-material",
   "version": "1.0.0",
   "description": "ReactJS Material UI",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
     "babel": "babel ./src --out-dir ./lib",
     "sass": "cpx ./src/**/*.scss ./lib",

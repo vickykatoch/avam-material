@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import classnames from 'classnames';
 import { themr } from 'react-css-themr';
-import { PROGRESS_BAR } from '../ComponentIdentifiers.js';
-import prefixer from '../utils/prefixer.js';
+import { PROGRESS_BAR } from '../ComponentIdentifiers';
+import prefixer from '../utils/prefixer';
 
 class ProgressBar extends Component {
   calculateRatio (value) {
