@@ -1,6 +1,6 @@
 {
   "name": "avam-material",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ReactJS Material UI",
   "main": "./lib",
   "scripts": {
